@@ -1,0 +1,69 @@
+﻿<Page x:Class="WpfApp8.Pages.PageIpoteka"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:WpfApp8.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="800" d:DesignWidth="1500"
+      Title="PageIpoteka">
+
+    <Grid Background="White">
+        <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Top">
+            <Image Source="D:\\All\Study\C#\2k\WpfApp8\Resourses\logo.PNG" Height="50" Margin="0 0 10 0"></Image>
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Top">
+                <Button Name="Credit" BorderBrush="PowderBlue" Width="90" Height="60" Background="White" Content="Кредиты" Margin="5 0 15 0" Click="Credit_Click" >
+                </Button>
+                <Button Name="Ipoteka" BorderBrush="PowderBlue" Width="90" Height="60" Background="White" Content="Ипотека" Margin="5 0 15 0">
+                </Button>
+                <Button  Name="Cards"  BorderBrush="PowderBlue" Width="90" Height="60" Background="White" Content="Карты" Margin="5 0 15 0" Click="Cards_Click">
+                </Button>
+                <Button Name="Vclad" BorderBrush="PowderBlue" Width="90" Height="60" Background="White" Content="Вклады" Margin="5 0 15 0" Click="Vclad_Click">
+                </Button>
+                <Button BorderBrush="PowderBlue" Width="90" Height="60" Background="White" Content="Инвестиции" Margin="5 0 15 0" Click="Button_Click">
+                </Button>
+                <Button BorderBrush="PowderBlue" Width="90" Height="60" Background="White" Content="Платежи" Margin="5 0 15 0">
+                </Button>
+                <Button BorderBrush="PowderBlue" Width="90" Height="60" Background="White" Content="Переводы" Margin="5 0 15 0">
+                </Button>
+                <Button BorderBrush="PowderBlue" Width="90" Height="60" Background="White" Content="Страхование" Margin="5 0 15 0">
+                </Button>
+                <Button BorderBrush="PowderBlue" Width="90" Height="60" Background="White" Content="Поддержка" Margin="5 0 15 0">
+                </Button>
+                <Button BorderBrush="PowderBlue" Width="90" Height="60" Background="White" Content="Сервис" Margin="5 0 15 0">
+                </Button>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0 50 0 0">
+                <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Top">
+                    <Button BorderBrush="PowderBlue" Width="190" Height="60" Background="White" Content="Все ипотечные кредиты" Margin="0 10 0 0" FontWeight="Black">
+                    </Button>
+                    <Button BorderBrush="PowderBlue" Width="190" Height="60" Background="White" Content="Ипотека на вторичное жилье" Margin="0 10 0 0" FontWeight="Black">
+                    </Button>
+                    <Button BorderBrush="PowderBlue" Width="190" Height="60" Background="White" Content="Ипотека на новостройки" Margin="0 10 0 0" FontWeight="Black">
+                    </Button>
+                    <Button BorderBrush="PowderBlue" Width="190" Height="60" Background="White" Content="Рефинансирование ипотеки" Margin="0 10 0 0" FontWeight="Black">
+                    </Button>
+                    <Button BorderBrush="PowderBlue" Width="190" Height="60" Background="White" Content="Ипотека с господдержкой 0,1%" Margin="0 10 0 0" FontWeight="Black">
+                    </Button>
+                    <Button BorderBrush="Black" Width="190" Height="60" Background="White" Content="Оформить ипотеку онлайн" Margin="0 10 0 0" FontWeight="Black">
+                    </Button>
+                </StackPanel>
+                <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="50 0 0 0">
+                    <Button BorderBrush="PowderBlue" Width="190" Height="60" Background="White" Content="Полезное" Margin="0 10 0 0" FontWeight="Light">
+                    </Button>
+                    <Button BorderBrush="PowderBlue" Width="190" Height="60" Background="White" Content="Вопросы по ипотеке" Margin="0 10 0 0" FontWeight="Light">
+                    </Button>
+                    <Button BorderBrush="PowderBlue" Width="190" Height="60" Background="White" Content="Личный кабинет" Margin="0 10 0 0" FontWeight="Light">
+                    </Button>
+                    <Button BorderBrush="PowderBlue" Width="190" Height="60" Background="White" Content="Найти квартиру" Margin="0 10 0 0" FontWeight="Light">
+                    </Button>
+                    <Button BorderBrush="PowderBlue" Width="190" Height="60" Background="White" Content="Оценить стоимость квартиры" Margin="0 10 0 0" FontWeight="Light">
+                    </Button>
+                    <Button BorderBrush="PowderBlue" Width="190" Height="60" Background="White" Content="Ипотечные каникулы" Margin="0 10 0 0" FontWeight="Light">
+                    </Button>
+                </StackPanel>
+                <Image Source="/WpfApp8;component/Ipot.jpg" Height="500" Width="850" Stretch="Fill" Margin="100 0 0 0"></Image>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Page>
