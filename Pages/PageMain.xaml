@@ -10,29 +10,33 @@
 
     <Grid Background="White">
         <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Top">
-            <Image Source="D:\\All\Study\C#\2k\WpfApp6\Resourses\logo.PNG" Height="50" Margin="0 0 10 0"></Image>
+            <Image Source="D:\1 Kolledzh\2 Egorova N.B. PiTPM\WpfAppBank\Resourses\logo.png" Height="50" Margin="0 0 10 0"></Image>
             <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Top">
-                <Button Name="Credits" BorderBrush="PowderBlue" Width="90" Height="60" Background="White" Content="Кредиты" Margin="5 0 15 0" Click="Credits_Click" >
+                <Button Name="Credits" Content="Кредиты" Style="{StaticResource BtnAlws}" Click="Credits_Click" >
                 </Button>
-                <Button BorderBrush="PowderBlue" Width="90" Height="60" Background="White" Content="Ипотека" Margin="5 0 15 0" Click="Button_Click">
+                <Button Content="Ипотека" Style="{StaticResource BtnAlws}" Click="Button_Click">
                 </Button>
-                <Button BorderBrush="PowderBlue" Width="90" Height="60" Background="White" Content="Карты" Margin="5 0 15 0" Click="Button_Click_1">
+                <Button Content="Карты" Style="{StaticResource BtnAlws}" Click="Button_Click_1">
                 </Button>
-                <Button BorderBrush="PowderBlue" Width="90" Height="60" Background="White" Content="Вклады" Margin="5 0 15 0" Click="Button_Click_2">
+                <Button Content="Вклады" Style="{StaticResource BtnAlws}" Click="Button_Click_2">
                 </Button>
-                <Button BorderBrush="PowderBlue" Width="90" Height="60" Background="White" Content="Инвестиции" Margin="5 0 15 0" Click="Button_Click_3">
+                <Button Content="Инвестиции" Style="{StaticResource BtnAlws}" Click="Button_Click_3">
                 </Button>
-                <Button BorderBrush="PowderBlue" Width="90" Height="60" Background="White" Content="Платежи" Margin="5 0 15 0">
+                <Button Content="Платежи" Style="{StaticResource BtnAlws}">
                 </Button>
-                <Button BorderBrush="PowderBlue" Width="90" Height="60" Background="White" Content="Переводы" Margin="5 0 15 0">
+                <Button Content="Переводы" Style="{StaticResource BtnAlws}">
                 </Button>
-                <Button BorderBrush="PowderBlue" Width="90" Height="60" Background="White" Content="Страхование" Margin="5 0 15 0">
+                <Button Content="Страхование" Style="{StaticResource BtnAlws}">
                 </Button>
-                <Button BorderBrush="PowderBlue" Width="90" Height="60" Background="White" Content="Поддержка" Margin="5 0 15 0">
+                <Button Content="Поддержка" Style="{StaticResource BtnAlws}">
                 </Button>
-                <Button BorderBrush="PowderBlue" Width="90" Height="60" Background="White" Content="Сервис" Margin="5 0 15 0">
+                <Button Content="Сервис" Style="{StaticResource BtnAlws}">
+                </Button>
+                <Button Name="Vhod" Content="Вход" Style="{StaticResource BtnAlws}" Click="Vhod_Click">
                 </Button>
             </StackPanel>
         </StackPanel>
+        <Image Margin="163,137,161,58" Source="/WpfApp8;component/main.jpg" Stretch="Fill"/>
+
     </Grid>
 </Page>

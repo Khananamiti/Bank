@@ -10,63 +10,63 @@
 
     <Grid Background="White">
         <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Top">
-            <Image Source="D:\\All\Study\C#\2k\WpfApp6\Resourses\logo.PNG" Height="50" Margin="0 0 10 0"></Image>
+            <Image Source="D:\1 Kolledzh\2 Egorova N.B. PiTPM\WpfAppBank\Resourses\logo.png" Height="50" Margin="0 0 10 0"></Image>
             <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Top">
-                <Button Name="Credit" BorderBrush="PowderBlue" Width="90" Height="60" Background="CadetBlue" Content="Кредиты" Margin="5 0 15 0" Click="Credit_Click" >
+                <Button Name="Credit" Content="Кредиты"  Click="Credit_Click" Style="{StaticResource BtnAlws}">
                 </Button>
-                <Button BorderBrush="PowderBlue" Width="90" Height="60" Background="CadetBlue" Content="Ипотека" Margin="5 0 15 0" Click="Button_Click">
+                <Button Name="Ipoteka"  Content="Ипотека"  Click="Button_Click" Style="{StaticResource BtnAlws}">
                 </Button>
-                <Button Name="Cards"  BorderBrush="PowderBlue" Width="90" Height="60" Background="CadetBlue" Content="Карты" Margin="5 0 15 0" Click="Cards_Click">
+                <Button Name="Cards"  Content="Карты" Click="Cards_Click" Style="{StaticResource BtnAlws}">
                 </Button>
-                <Button BorderBrush="PowderBlue" Width="90" Height="60" Background="CadetBlue" Content="Вклады" Margin="5 0 15 0" Click="Button_Click_1">
+                <Button Content="Вклады" Click="Button_Click_1" Style="{StaticResource BtnAlws}">
                 </Button>
-                <Button BorderBrush="PowderBlue" Width="90" Height="60" Background="CadetBlue" Content="Инвестиции" Margin="5 0 15 0" Click="Button_Click_2">
+                <Button Content="Инвестиции" Click="Button_Click_2" Style="{StaticResource BtnAlws}">
                 </Button>
-                <Button BorderBrush="PowderBlue" Width="90" Height="60" Background="CadetBlue" Content="Платежи" Margin="5 0 15 0">
+                <Button Content="Платежи" Margin="5 0 15 0" Style="{StaticResource BtnAlws}">
                 </Button>
-                <Button BorderBrush="PowderBlue" Width="90" Height="60" Background="CadetBlue" Content="Переводы" Margin="5 0 15 0">
+                <Button Content="Переводы" Style="{StaticResource BtnAlws}">
                 </Button>
-                <Button BorderBrush="PowderBlue" Width="90" Height="60" Background="CadetBlue" Content="Страхование" Margin="5 0 15 0">
+                <Button Content="Страхование" Style="{StaticResource BtnAlws}">
                 </Button>
-                <Button BorderBrush="PowderBlue" Width="90" Height="60" Background="CadetBlue" Content="Поддержка" Margin="5 0 15 0">
+                <Button Content="Поддержка" Style="{StaticResource BtnAlws}">
                 </Button>
-                <Button BorderBrush="PowderBlue" Width="90" Height="60" Background="CadetBlue" Content="Сервис" Margin="5 0 15 0">
+                <Button Content="Сервис" Margin="5 0 15 0" Style="{StaticResource BtnAlws}">
                 </Button>
             </StackPanel>
             <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0 50 0 0">
                 <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Top">
-                    <Button BorderBrush="PowderBlue" Width="190" Height="60" Background="Tomato" Content="Все кредиты" Margin="0 10 0 0" FontWeight="Black">
+                    <Button Content="Все кредиты" FontWeight="Black" Style="{StaticResource BtnStolb1}">
                     </Button>
-                    <Button BorderBrush="PowderBlue" Width="190" Height="60" Background="Tomato" Content="Потребительский кредит" Margin="0 10 0 0" FontWeight="Black">
+                    <Button Content="Потребительский кредит" Style="{StaticResource BtnStolb1}" FontWeight="Black">
                     </Button>
-                    <Button BorderBrush="PowderBlue" Width="190" Height="60" Background="Tomato" Content="Рефинансирование кредита" Margin="0 10 0 0" FontWeight="Black">
+                    <Button Content="Рефинансирование кредита" Style="{StaticResource BtnStolb1}" FontWeight="Black">
                     </Button>
-                    <Button BorderBrush="PowderBlue" Width="190" Height="60" Background="Tomato" Content="Автокредит" Margin="0 10 0 0" FontWeight="Black">
+                    <Button Content="Автокредит" Style="{StaticResource BtnStolb1}" FontWeight="Black">
                     </Button>
-                    <Button BorderBrush="PowderBlue" Width="190" Height="60" Background="Tomato" Content="Ипотека" Margin="0 10 0 0" FontWeight="Black">
+                    <Button Content="Ипотека" Style="{StaticResource BtnStolb1}" FontWeight="Black">
                     </Button>
-                    <Button BorderBrush="PowderBlue" Width="190" Height="60" Background="Tomato" Content="Кредитные карты" Margin="0 10 0 0" FontWeight="Black">
+                    <Button Content="Кредитные карты" Style="{StaticResource BtnStolb1}" FontWeight="Black">
                     </Button>
-                    <Button BorderBrush="Black" Width="190" Height="60" Background="Tomato" Content="Оформить кредит онлайн" Margin="0 10 0 0" FontWeight="Black">
+                    <Button Content="Оформить кредит онлайн" Style="{StaticResource BtnStolb1}" FontWeight="Black">
                     </Button>
                 </StackPanel>
                 <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="50 0 0 0">
-                    <Button BorderBrush="PowderBlue" Width="190" Height="60" Background="Yellow" Content="Полезное" Margin="0 10 0 0" FontWeight="Light">
+                    <Button Content="Полезное" FontWeight="Light" Style="{StaticResource BtnStolb2}">
                     </Button>
-                    <Button BorderBrush="PowderBlue" Width="190" Height="60" Background="Yellow" Content="Вопросы о кредитах" Margin="0 10 0 0" FontWeight="Light">
+                    <Button Content="Вопросы о кредитах" FontWeight="Light" Style="{StaticResource BtnStolb2}">
                     </Button>
-                    <Button BorderBrush="PowderBlue" Width="190" Height="60" Background="Yellow" Content="Кредитный потенциал" Margin="0 10 0 0" FontWeight="Light">
+                    <Button Content="Кредитный потенциал" FontWeight="Light" Style="{StaticResource BtnStolb2}">
                     </Button>
-                    <Button BorderBrush="PowderBlue" Width="190" Height="60" Background="Yellow" Content="Кредитная история" Margin="0 10 0 0" FontWeight="Light">
+                    <Button Content="Кредитная история" FontWeight="Light" Style="{StaticResource BtnStolb2}">
                     </Button>
-                    <Button BorderBrush="PowderBlue" Width="190" Height="60" Background="Yellow" Content="Кредитные каникулы" Margin="0 10 0 0" FontWeight="Light">
+                    <Button Content="Кредитные каникулы" FontWeight="Light" Style="{StaticResource BtnStolb2}">
                     </Button>
-                    <Button BorderBrush="PowderBlue" Width="190" Height="60" Background="Yellow" Content="Кредитный калькулятор" Margin="0 10 0 0" FontWeight="Light">
+                    <Button Content="Кредитный калькулятор" FontWeight="Light" Style="{StaticResource BtnStolb2}">
                     </Button>
                 </StackPanel>
-                <Image Source="/WpfApp8;component/Alfa.jpg" Height="500" Width="850" Stretch="Fill" Margin="100 0 0 0"></Image>
-                
+                <Image Source="D:\1 Kolledzh\2 Egorova N.B. PiTPM\WpfAppBank\Resourses\credits.jpg" Height="500" Width="850" Stretch="Fill" Margin="100 0 0 0"></Image>
             </StackPanel>
         </StackPanel>
+ 
     </Grid>
 </Page>

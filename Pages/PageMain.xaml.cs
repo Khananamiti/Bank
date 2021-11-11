@@ -51,5 +51,10 @@ namespace WpfApp8.Pages
         {
             FrameClass.frmObj.Navigate(new PageInvest());
         }
+
+        private void Vhod_Click(object sender, RoutedEventArgs e)
+        {
+            FrameClass.frmObj.Navigate(new PageAut());
+        }
     }
 }

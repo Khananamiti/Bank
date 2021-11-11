@@ -55,8 +55,17 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Pages\PageAut.xaml.cs">
+      <DependentUpon>PageAut.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Pages\PageInvest.xaml.cs">
       <DependentUpon>PageInvest.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\PageMainVhod.xaml.cs">
+      <DependentUpon>PageMainVhod.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\PageReg.xaml.cs">
+      <DependentUpon>PageReg.xaml</DependentUpon>
     </Compile>
     <Compile Include="Resourses\PageVclad.xaml.cs">
       <DependentUpon>PageVclad.xaml</DependentUpon>
@@ -74,6 +83,10 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="Pages\PageAut.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Pages\PageCards.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -91,6 +104,14 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Pages\PageMain.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\PageMainVhod.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\PageReg.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -141,19 +162,37 @@
     <Resource Include="Resourses\logo.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Resourses\credits.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Resourses\Ipoteka.png" />
-  </ItemGroup>
-  <ItemGroup>
     <Resource Include="Resourses\cards.jpg" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Resourses\invest.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Alfa.jpg" />
+    <Resource Include="credits.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Ipoteka.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="ipoteka.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Vklady.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="invest.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="cards.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="main.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="podval.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="vhod.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
