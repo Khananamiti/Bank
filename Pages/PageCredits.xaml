@@ -12,6 +12,8 @@
         <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Top">
             <Image Source="D:\1 Kolledzh\2 Egorova N.B. PiTPM\WpfAppBank\Resourses\logo.png" Height="50" Margin="0 0 10 0"></Image>
             <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Top">
+                <Button Name="Main" Content="Главная"  Click="Main_Click" Style="{StaticResource BtnAlws}">
+                </Button>
                 <Button Name="Credit" Content="Кредиты"  Click="Credit_Click" Style="{StaticResource BtnAlws}">
                 </Button>
                 <Button Name="Ipoteka"  Content="Ипотека"  Click="Button_Click" Style="{StaticResource BtnAlws}">

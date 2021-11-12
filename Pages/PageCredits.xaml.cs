@@ -52,5 +52,10 @@ namespace WpfApp8.Pages
         {
 
         }
+
+        private void Main_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

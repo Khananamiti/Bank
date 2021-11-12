@@ -5,11 +5,45 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp8"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="800" Width="1500">
     <Grid>
-        <Frame Name="FrMain">
-        </Frame>
-        <Frame Name="FrReg">
+       
+        <Grid.RowDefinitions>
+            <RowDefinition Height="130"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Top" Grid.ColumnSpan="3">
+            <Image Source="D:\1 Kolledzh\2 Egorova N.B. PiTPM\WpfAppBank\Resourses\logo.png" Height="50" Margin="0 0 10 0"></Image>
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Top">
+                <Button Name="Main" Content="Главная" Click="Main_Click" Style="{StaticResource BtnAlws}">
+                </Button>
+                <Button Name="Credit" Content="Кредиты" Click="Credit_Click" Style="{StaticResource BtnAlws}">
+                </Button>
+                <Button Name="Ipoteka" Content="Ипотека" Click="Ipoteka_Click" Style="{StaticResource BtnAlws}">
+                </Button>
+                <Button Name="Cards" Content="Карты" Click="Cards_Click" Style="{StaticResource BtnAlws}">
+                </Button>
+                <Button Name="Vklad" Content="Вклады" Click="Vklad_Click" Style="{StaticResource BtnAlws}">
+                </Button>
+                <Button Name="Invest" Content="Инвестиции" Click="Invest_Click" Style="{StaticResource BtnAlws}">
+                </Button>
+                <Button Name="Platezhi" Content="Платежи" Margin="5 0 15 0" Style="{StaticResource BtnAlws}">
+                </Button>
+                <Button Name="Perevody" Content="Переводы" Style="{StaticResource BtnAlws}">
+                </Button>
+                <Button Name="Srtah" Content="Страхование" Style="{StaticResource BtnAlws}">
+                </Button>
+                <Button Name="Podd" Content="Поддержка" Style="{StaticResource BtnAlws}">
+                </Button>
+                <Button Name="Servis" Content="Сервис" Margin="5 0 15 0" Style="{StaticResource BtnAlws}">
+                </Button>
+                <Button Name="Vyhod" Content="Выход" Style="{StaticResource BtnAlws}" Click="Vyhod_Click">
+                </Button>
+            </StackPanel>
+        </StackPanel>
+
+        <Frame Name="FrMain" Grid.Row="1">
         </Frame>
     </Grid>
 </Window>

@@ -1,19 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
+﻿using System.Windows;
 using WpfApp8.Clases;
 using WpfApp8.Pages;
+using WpfApp8.Resourses;
 
 namespace WpfApp8
 {
@@ -27,6 +15,41 @@ namespace WpfApp8
             InitializeComponent();
             FrameClass.frmObj = FrMain;
             FrMain.Navigate(new PageMain());
+        }
+
+        private void Main_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Credit_Click(object sender, RoutedEventArgs e)
+        {
+            FrameClass.frmObj.Navigate(new PageCredits());
+        }
+
+        private void Ipoteka_Click(object sender, RoutedEventArgs e)
+        {
+            FrameClass.frmObj.Navigate(new PageIpoteka());
+        }
+
+        private void Cards_Click(object sender, RoutedEventArgs e)
+        {
+            FrameClass.frmObj.Navigate(new PageCards());
+        }
+
+        private void Vklad_Click(object sender, RoutedEventArgs e)
+        {
+            FrameClass.frmObj.Navigate(new PageVclad());
+        }
+
+        private void Invest_Click(object sender, RoutedEventArgs e)
+        {
+            FrameClass.frmObj.Navigate(new PageInvest());
+        }
+
+        private void Vyhod_Click(object sender, RoutedEventArgs e)
+        {
+            FrameClass.frmObj.Navigate(new PageAut());
         }
     }
 }
