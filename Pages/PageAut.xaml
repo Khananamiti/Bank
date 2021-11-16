@@ -8,59 +8,33 @@
       d:DesignHeight="800" d:DesignWidth="1500"
       Title="PageAut">
 
-    <Grid>
-        <StackPanel 
-            Orientation="Vertical" 
-            HorizontalAlignment="Center" 
-            VerticalAlignment="Center" 
-            Background="Bisque">
-            <Label 
-                Content="Введите логин:" 
-                HorizontalAlignment="Center" 
-                Margin ="5" 
-                VerticalAlignment="Center">
+    <Grid Background="AntiqueWhite">
+        <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Top" Background="AntiqueWhite" Height="322" Margin="375,33,457,0" Width="668">
+            <Label Content="Введите логин:" Style="{StaticResource BtnAutReg}">
             </Label>
-            <TextBox 
+            <TextBox                 
                 Name="login" 
                 Height="20" 
-                Width="100" 
+                Width="254" 
                 HorizontalAlignment="Center" 
-                VerticalAlignment="Center">
+                VerticalAlignment="Center" Margin="197,0,217,0">
             </TextBox>
-            <Label 
-                Content="Введите пароль:" 
-                HorizontalAlignment="Center" 
-                Margin ="5" 
-                VerticalAlignment="Center">
+            <Label Content="Введите пароль:" Style="{StaticResource BtnAutReg}">
             </Label>
             <PasswordBox 
                 Name="password" 
                 Height="20" 
-                Width="100" 
+                Width="254" 
                 HorizontalAlignment="Center" 
-                VerticalAlignment="Center">
+                VerticalAlignment="Center" Margin="197,0,217,0">
             </PasswordBox>
             <StackPanel 
                 Orientation="Horizontal" 
                 HorizontalAlignment="Center" 
-                VerticalAlignment="Center">
-                <Button 
-                    Name="enter" 
-                    Height="20" 
-                    Click="enter_Click"
-                    Width="100" 
-                    Content="Войти" 
-                    Margin ="5">
-                </Button>
-                <Button 
-                    Name="regin" 
-                    Height="20" 
-                    Click="regin_Click"
-                    Width="100" 
-                    Content="Регистрация" 
-                    Margin ="5">
-                </Button>
+                VerticalAlignment="Center" Margin="197,0,217,0" Width="254">
+                <Button Style="{StaticResource BtnRegAut}" Name="enter" Click="enter_Click" Width="94" Content="Войти" Margin ="5"/>
+                <Button Style="{StaticResource BtnRegAut}" Name="regin" Click="regin_Click" Width="140" Content="Регистрация" Margin ="5"/>
             </StackPanel>
-        </StackPanel> 
+        </StackPanel>
     </Grid>
 </Page>

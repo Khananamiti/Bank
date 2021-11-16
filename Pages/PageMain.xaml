@@ -5,38 +5,13 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:WpfApp8.Pages"
       mc:Ignorable="d" 
-      d:DesignHeight="800" d:DesignWidth="1500"
+      d:DesignHeight="630" d:DesignWidth="1500"
       Title="PageMain">
 
-    <Grid Background="White">
+    <Grid Background="AntiqueWhite">
         <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Top">
-            <Image Source="D:\1 Kolledzh\2 Egorova N.B. PiTPM\WpfAppBank\Resourses\logo.png" Height="50" Margin="0 0 10 0"></Image>
-            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Top">
-                <Button Name="Credits" Content="Кредиты" Style="{StaticResource BtnAlws}" Click="Credits_Click" >
-                </Button>
-                <Button Content="Ипотека" Style="{StaticResource BtnAlws}" Click="Button_Click">
-                </Button>
-                <Button Content="Карты" Style="{StaticResource BtnAlws}" Click="Button_Click_1">
-                </Button>
-                <Button Content="Вклады" Style="{StaticResource BtnAlws}" Click="Button_Click_2">
-                </Button>
-                <Button Content="Инвестиции" Style="{StaticResource BtnAlws}" Click="Button_Click_3">
-                </Button>
-                <Button Content="Платежи" Style="{StaticResource BtnAlws}">
-                </Button>
-                <Button Content="Переводы" Style="{StaticResource BtnAlws}">
-                </Button>
-                <Button Content="Страхование" Style="{StaticResource BtnAlws}">
-                </Button>
-                <Button Content="Поддержка" Style="{StaticResource BtnAlws}">
-                </Button>
-                <Button Content="Сервис" Style="{StaticResource BtnAlws}">
-                </Button>
-                <Button Name="Vhod" Content="Вход" Style="{StaticResource BtnAlws}" Click="Vhod_Click">
-                </Button>
-            </StackPanel>
+            <Image Source="/WpfApp8;component/main.jpg" Stretch="UniformToFill" Height="626" Width="1140"/>
         </StackPanel>
-        <Image Margin="163,137,161,58" Source="/WpfApp8;component/main.jpg" Stretch="Fill"/>
 
     </Grid>
 </Page>

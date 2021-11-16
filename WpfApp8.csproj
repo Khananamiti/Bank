@@ -64,8 +64,23 @@
     <Compile Include="Pages\PageMainVhod.xaml.cs">
       <DependentUpon>PageMainVhod.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Pages\PagePerevody.xaml.cs">
+      <DependentUpon>PagePerevody.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\PagePlatezhy.xaml.cs">
+      <DependentUpon>PagePlatezhy.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\PagePodderzhka.xaml.cs">
+      <DependentUpon>PagePodderzhka.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Pages\PageReg.xaml.cs">
       <DependentUpon>PageReg.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\PageService.xaml.cs">
+      <DependentUpon>PageService.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\PageStrah.xaml.cs">
+      <DependentUpon>PageStrah.xaml</DependentUpon>
     </Compile>
     <Compile Include="Pages\PageVclad.xaml.cs">
       <DependentUpon>PageVclad.xaml</DependentUpon>
@@ -111,7 +126,27 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Pages\PagePerevody.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\PagePlatezhy.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\PagePodderzhka.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Pages\PageReg.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\PageService.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\PageStrah.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -190,6 +225,27 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="vhod.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="platezhy.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="perevody.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="strah.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="podd.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="service.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="iconman.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="sberbank.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

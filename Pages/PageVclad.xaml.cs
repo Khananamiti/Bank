@@ -25,7 +25,7 @@ namespace WpfApp8.Resourses
         public PageVclad()
         {
             InitializeComponent();
-            Vclad.Background = Brushes.LightBlue;
+            //Vclad.Background = Brushes.LightBlue;
         }
 
         private void Credit_Click(object sender, RoutedEventArgs e)

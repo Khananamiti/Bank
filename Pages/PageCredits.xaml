@@ -8,35 +8,10 @@
       d:DesignHeight="800" d:DesignWidth="1500"
       Title="PageCredits">
 
-    <Grid Background="White">
+    <Grid Background="AntiqueWhite">
         <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Top">
-            <Image Source="D:\1 Kolledzh\2 Egorova N.B. PiTPM\WpfAppBank\Resourses\logo.png" Height="50" Margin="0 0 10 0"></Image>
-            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Top">
-                <Button Name="Main" Content="Главная"  Click="Main_Click" Style="{StaticResource BtnAlws}">
-                </Button>
-                <Button Name="Credit" Content="Кредиты"  Click="Credit_Click" Style="{StaticResource BtnAlws}">
-                </Button>
-                <Button Name="Ipoteka"  Content="Ипотека"  Click="Button_Click" Style="{StaticResource BtnAlws}">
-                </Button>
-                <Button Name="Cards"  Content="Карты" Click="Cards_Click" Style="{StaticResource BtnAlws}">
-                </Button>
-                <Button Content="Вклады" Click="Button_Click_1" Style="{StaticResource BtnAlws}">
-                </Button>
-                <Button Content="Инвестиции" Click="Button_Click_2" Style="{StaticResource BtnAlws}">
-                </Button>
-                <Button Content="Платежи" Margin="5 0 15 0" Style="{StaticResource BtnAlws}">
-                </Button>
-                <Button Content="Переводы" Style="{StaticResource BtnAlws}">
-                </Button>
-                <Button Content="Страхование" Style="{StaticResource BtnAlws}">
-                </Button>
-                <Button Content="Поддержка" Style="{StaticResource BtnAlws}">
-                </Button>
-                <Button Content="Сервис" Margin="5 0 15 0" Style="{StaticResource BtnAlws}">
-                </Button>
-            </StackPanel>
-            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0 50 0 0">
-                <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Top">
+            <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0 50 0 0">
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Top">
                     <Button Content="Все кредиты" FontWeight="Black" Style="{StaticResource BtnStolb1}">
                     </Button>
                     <Button Content="Потребительский кредит" Style="{StaticResource BtnStolb1}" FontWeight="Black">
@@ -52,7 +27,7 @@
                     <Button Content="Оформить кредит онлайн" Style="{StaticResource BtnStolb1}" FontWeight="Black">
                     </Button>
                 </StackPanel>
-                <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="50 0 0 0">
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="50 0 0 10">
                     <Button Content="Полезное" FontWeight="Light" Style="{StaticResource BtnStolb2}">
                     </Button>
                     <Button Content="Вопросы о кредитах" FontWeight="Light" Style="{StaticResource BtnStolb2}">

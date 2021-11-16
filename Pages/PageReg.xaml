@@ -8,14 +8,10 @@
       d:DesignHeight="800" d:DesignWidth="1500"
       Title="PageReg">
 
-    <Grid>
+    <Grid Background="AntiqueWhite">
         <StackPanel 
-            Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center" Background="Bisque" Width="400" >
-            <Label 
-                Content="Фамилия:" 
-                HorizontalAlignment="Center" 
-                Margin ="5" 
-                VerticalAlignment="Center">
+            Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Top" Background="AntiqueWhite" Margin="532,48,520,0" Width="448" >
+            <Label Content="Фамилия:" Style="{StaticResource BtnAutReg}">
             </Label>
             <TextBox 
                 Name="sureName" 
@@ -23,24 +19,16 @@
                 HorizontalAlignment="Center" 
                 VerticalAlignment="Center">
             </TextBox>
-            <Label 
-                Content="Имя:" 
-                HorizontalAlignment="Center" 
-                Margin ="5" 
-                VerticalAlignment="Center">
+            <Label Content="Имя:" Style="{StaticResource BtnAutReg}">
             </Label>
-            <TextBox 
+            <TextBox FontSize="20"
                 Name="name" 
                 Height="20" 
                 Width="200" 
                 HorizontalAlignment="Center" 
                 VerticalAlignment="Center">
             </TextBox>
-            <Label 
-                Content="Отчество:" 
-                HorizontalAlignment="Center" 
-                Margin ="5" 
-                VerticalAlignment="Center">
+            <Label Content="Отчество:" Style="{StaticResource BtnAutReg}">
             </Label>
             <TextBox 
                 Name="LastName" 
@@ -49,24 +37,16 @@
                 HorizontalAlignment="Center" 
                 VerticalAlignment="Center">
             </TextBox>
-            <Label 
-                Content="e-mail:" 
-                HorizontalAlignment="Center" 
-                Margin ="5" 
-                VerticalAlignment="Center">
+            <Label Content="e-mail:" Style="{StaticResource BtnAutReg}">
             </Label>
-            <TextBox 
+            <TextBox FontSize="20"
                 Name="email" 
                 Height="20" 
                 Width="200" 
                 HorizontalAlignment="Center" 
                 VerticalAlignment="Center">
             </TextBox>
-            <Label 
-                Content="Задайте пароль:" 
-                HorizontalAlignment="Center" 
-                Margin ="5" 
-                VerticalAlignment="Center">
+            <Label Content="Задайте пароль:" Style="{StaticResource BtnAutReg}">
             </Label>
             <PasswordBox 
                 Name="password" 
@@ -75,11 +55,7 @@
                 HorizontalAlignment="Center" 
                 VerticalAlignment="Center">
             </PasswordBox>
-            <Label 
-                Content="Повторите пароль:" 
-                HorizontalAlignment="Center" 
-                Margin ="5" 
-                VerticalAlignment="Center">
+            <Label Content="Повторите пароль:" Style="{StaticResource BtnAutReg}">
             </Label>
             <PasswordBox 
                 Name="password_2" 
@@ -88,21 +64,9 @@
                 HorizontalAlignment="Center" 
                 VerticalAlignment="Center">
             </PasswordBox>
-            <Button 
-                Name="zaregin" 
-                Height="20" 
-                Click="zaregin_Click" 
-                Width="150" 
-                Content="Зарегистрироваться" 
-                Margin ="5">
+            <Button Style="{StaticResource BtnRegAut}" MouseMove="zaregin_MouseMove" Name="zaregin" Click="zaregin_Click" Content="Зарегистрироваться">
             </Button>
-            <Button 
-                Name="back" 
-                Height="20" 
-                Click="back_Click"
-                Width="150" 
-                Content="Назад" 
-                Margin ="5">
+            <Button Style="{StaticResource BtnRegAut}" MouseMove="back_MouseMove" Name="back" Click="back_Click" Content="Назад">
             </Button>
         </StackPanel>
     </Grid>

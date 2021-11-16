@@ -25,7 +25,7 @@ namespace WpfApp8.Pages
         public PageCards()
         {
             InitializeComponent();
-            Cards.Background = Brushes.LightBlue;
+            //Cards.Background = Brushes.LightBlue;
         }
 
         private void Credit_Click(object sender, RoutedEventArgs e)

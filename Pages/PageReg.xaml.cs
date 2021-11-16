@@ -62,5 +62,15 @@ namespace WpfApp8.Pages
         {
             FrameClass.frmObj.Navigate(new PageAut());
         }
+
+        private void zaregin_MouseMove(object sender, MouseEventArgs e)
+        {
+            Cursor = Cursors.Hand;
+        }
+
+        private void back_MouseMove(object sender, MouseEventArgs e)
+        {
+            Cursor = Cursors.Hand;
+        }
     }
 }

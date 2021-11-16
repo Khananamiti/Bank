@@ -25,7 +25,7 @@ namespace WpfApp8.Pages
         public PageInvest()
         {
             InitializeComponent();
-            Invest.Background = Brushes.LightBlue;
+            //Invest.Background = Brushes.LightBlue;
         }
 
         private void Credit_Click(object sender, RoutedEventArgs e)

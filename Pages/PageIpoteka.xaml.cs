@@ -25,7 +25,7 @@ namespace WpfApp8.Pages
         public PageIpoteka()
         {
             InitializeComponent();
-            Ipoteka.Background = Brushes.LightBlue;
+            //Ipoteka.Background = Brushes.LightBlue;
         }
 
         private void Credit_Click(object sender, RoutedEventArgs e)

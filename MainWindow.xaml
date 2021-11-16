@@ -7,16 +7,16 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="800" Width="1500">
     <Grid>
-       
         <Grid.RowDefinitions>
             <RowDefinition Height="130"/>
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
 
-        <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Top" Grid.ColumnSpan="3">
-            <Image Source="D:\1 Kolledzh\2 Egorova N.B. PiTPM\WpfAppBank\Resourses\logo.png" Height="50" Margin="0 0 10 0"></Image>
+        <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Top" Grid.ColumnSpan="2">
+            <Image Source="./Resourses/logo.png" Height="50" Margin="0 0 10 0"></Image>
             <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Top">
-                <Button Name="Main" Content="Главная" Click="Main_Click" Style="{StaticResource BtnAlws}">
+                <Button Name="Main" Click="Main_Click" Background="White"  Width="190" Height="60" Margin="5 0 15 0" BorderThickness="0">
+                    <Image Source="sberbank.png" Stretch="None"/>
                 </Button>
                 <Button Name="Credit" Content="Кредиты" Click="Credit_Click" Style="{StaticResource BtnAlws}">
                 </Button>
@@ -28,22 +28,24 @@
                 </Button>
                 <Button Name="Invest" Content="Инвестиции" Click="Invest_Click" Style="{StaticResource BtnAlws}">
                 </Button>
-                <Button Name="Platezhi" Content="Платежи" Margin="5 0 15 0" Style="{StaticResource BtnAlws}">
+                <Button Name="Platezhi" Content="Платежи" Click="Platezhi_Click" Margin="5 0 15 0" Style="{StaticResource BtnAlws}">
                 </Button>
-                <Button Name="Perevody" Content="Переводы" Style="{StaticResource BtnAlws}">
+                <Button Name="Perevody" Content="Переводы" Click="Perevody_Click" Style="{StaticResource BtnAlws}">
                 </Button>
-                <Button Name="Srtah" Content="Страхование" Style="{StaticResource BtnAlws}">
+                <Button Name="Srtah" Content="Страхование" Click="Srtah_Click" Style="{StaticResource BtnAlws}">
                 </Button>
-                <Button Name="Podd" Content="Поддержка" Style="{StaticResource BtnAlws}">
+                <Button Name="Podd" Content="Поддержка" Click="Podd_Click" Style="{StaticResource BtnAlws}">
                 </Button>
-                <Button Name="Servis" Content="Сервис" Margin="5 0 15 0" Style="{StaticResource BtnAlws}">
+                <Button Name="Servis" Content="Сервис" Click="Servis_Click"  Margin="5 0 15 0" Style="{StaticResource BtnAlws}">
                 </Button>
-                <Button Name="Vyhod" Content="Выход" Style="{StaticResource BtnAlws}" Click="Vyhod_Click">
+                <Button Name="Vyhod" Style="{StaticResource BtnAlws}" Click="Vyhod_Click">
+                    <Image Source="iconman.png"/>
                 </Button>
             </StackPanel>
         </StackPanel>
 
-        <Frame Name="FrMain" Grid.Row="1">
+        <Frame Name="FrMain" Grid.Row="1"
+               NavigationUIVisibility="Hidden" Grid.ColumnSpan="2">
         </Frame>
     </Grid>
 </Window>

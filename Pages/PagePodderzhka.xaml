@@ -1,0 +1,50 @@
+﻿<Page x:Class="WpfApp8.Pages.PagePodderzhka"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:WpfApp8.Pages"
+      mc:Ignorable="d" 
+     d:DesignHeight="800" d:DesignWidth="1500"
+      Title="PagePodderzhka">
+
+    <Grid Background="AntiqueWhite">
+        <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Top">
+            <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0 50 0 0">
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Top">
+                    <Button Content="Безопасность" Style="{StaticResource BtnStolb1}" FontWeight="Black">
+                    </Button>
+                    <Button Content="Контакты" Style="{StaticResource BtnStolb1}" FontWeight="Black">
+                    </Button>
+                    <Button Content="Служба Омбудсмена" Style="{StaticResource BtnStolb1}" FontWeight="Black">
+                    </Button>
+                    <Button Content="Вопросы и ответы" Style="{StaticResource BtnStolb1}" FontWeight="Black">
+                    </Button>
+                    <Button Content="Статьи" Style="{StaticResource BtnStolb1}" FontWeight="Black">
+                    </Button>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="50 0 0 10">
+                    <Button Content="Полезное" Style="{StaticResource BtnStolb2}" FontWeight="Light">
+                    </Button>
+                    <Button Content="Аресты и взыскания" Style="{StaticResource BtnStolb2}" FontWeight="Light">
+                    </Button>
+                    <Button Content="Выписки и справки" Style="{StaticResource BtnStolb2}" FontWeight="Light">
+                    </Button>
+                    <Button Content="Особенный банк" Style="{StaticResource BtnStolb2}" FontWeight="Light">
+                    </Button>
+                    <Button Content="Наследство" Style="{StaticResource BtnStolb2}" FontWeight="Light">
+                    </Button>
+                    <Button Content="Доверенность" Style="{StaticResource BtnStolb2}" FontWeight="Light">
+                    </Button>
+                    <Button Content="Реквизиты" Style="{StaticResource BtnStolb2}" FontWeight="Light">
+                    </Button>
+                    <Button Content="Опека и попечительство" Style="{StaticResource BtnStolb2}" FontWeight="Light">
+                    </Button>
+                    <Button Content="Банкротство" Style="{StaticResource BtnStolb2}" FontWeight="Light">
+                    </Button>
+                </StackPanel>
+                <Image Source="/WpfApp8;component/podd.png" Height="598" Width="1038" Stretch="Fill" Margin="100 0 0 0"></Image>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Page>

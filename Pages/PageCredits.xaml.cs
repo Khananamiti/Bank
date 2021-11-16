@@ -25,7 +25,7 @@ namespace WpfApp8.Pages
         public PageCredits()
         {
             InitializeComponent();
-            Credit.Background=Brushes.LightBlue;
+           // Credit.Background=Brushes.LightBlue;
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)

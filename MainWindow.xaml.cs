@@ -19,7 +19,7 @@ namespace WpfApp8
 
         private void Main_Click(object sender, RoutedEventArgs e)
         {
-
+            FrameClass.frmObj.Navigate(new PageMain());
         }
 
         private void Credit_Click(object sender, RoutedEventArgs e)
@@ -50,6 +50,31 @@ namespace WpfApp8
         private void Vyhod_Click(object sender, RoutedEventArgs e)
         {
             FrameClass.frmObj.Navigate(new PageAut());
+        }
+
+        private void Platezhi_Click(object sender, RoutedEventArgs e)
+        {
+            FrameClass.frmObj.Navigate(new PagePlatezhy());
+        }
+
+        private void Perevody_Click(object sender, RoutedEventArgs e)
+        {
+            FrameClass.frmObj.Navigate(new PagePerevody());
+        }
+
+        private void Srtah_Click(object sender, RoutedEventArgs e)
+        {
+            FrameClass.frmObj.Navigate(new PageStrah());
+        }
+
+        private void Podd_Click(object sender, RoutedEventArgs e)
+        {
+            FrameClass.frmObj.Navigate(new PagePodderzhka());
+        }
+
+        private void Servis_Click(object sender, RoutedEventArgs e)
+        {
+            FrameClass.frmObj.Navigate(new PageService());
         }
     }
 }

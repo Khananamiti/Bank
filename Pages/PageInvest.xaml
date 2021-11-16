@@ -8,33 +8,10 @@
       d:DesignHeight="800" d:DesignWidth="1500"
       Title="PageInvest">
 
-    <Grid Background="White">
+    <Grid Background="AntiqueWhite">
         <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Top">
-            <Image Source="D:\1 Kolledzh\2 Egorova N.B. PiTPM\WpfAppBank\Resourses\logo.png" Height="50" Margin="0 0 10 0"></Image>
-            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Top">
-                <Button Name="Credit" Content="Кредиты" Style="{StaticResource BtnAlws}" Click="Credit_Click">
-                </Button>
-                <Button  Name="Ipoteka" Content="Ипотека" Style="{StaticResource BtnAlws}" Click="Ipoteka_Click">
-                </Button>
-                <Button Content="Карты" Style="{StaticResource BtnAlws}" Click="Button_Click">
-                </Button>
-                <Button Content="Вклады" Style="{StaticResource BtnAlws}" Click="Button_Click_1">
-                </Button>
-                <Button Name="Invest" Content="Инвестиции" Style="{StaticResource BtnAlws}">
-                </Button>
-                <Button Content="Платежи" Style="{StaticResource BtnAlws}">
-                </Button>
-                <Button Content="Переводы" Style="{StaticResource BtnAlws}">
-                </Button>
-                <Button Content="Страхование" Style="{StaticResource BtnAlws}">
-                </Button>
-                <Button Content="Поддержка" Style="{StaticResource BtnAlws}">
-                </Button>
-                <Button Content="Сервис" Style="{StaticResource BtnAlws}">
-                </Button>
-            </StackPanel>
-            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0 50 0 0">
-                <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Top">
+            <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0 50 0 0" Height="702">
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Top">
                     <Button Style="{StaticResource BtnStolb1}" Content="Брокерское обслуживание" FontWeight="Black">
                     </Button>
                     <Button Style="{StaticResource BtnStolb1}" Content="Инвестиционные решения" FontWeight="Black">
@@ -52,7 +29,7 @@
                     <Button Style="{StaticResource BtnStolb1}" Content="ПИФы" FontWeight="Black">
                     </Button>
                 </StackPanel>
-                <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="50 0 0 0">
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="50 0 0 10">
                     <Button Style="{StaticResource BtnStolb2}" Content="Полезное" FontWeight="Light">
                     </Button>
                     <Button Style="{StaticResource BtnStolb2}" Content="Что такое инвестиции" FontWeight="Light">
@@ -68,7 +45,7 @@
                     <Button Style="{StaticResource BtnStolb2}" Content="Тарифы брокерского обслуживания" FontWeight="Light">
                     </Button>
                 </StackPanel>
-                <Image Source="/WpfApp8;component/invest.jpg" Height="500" Width="850" Stretch="Fill" Margin="100 0 0 0"></Image> 
+                <Image Source="/WpfApp8;component/invest.jpg" Height="500" Width="850" Stretch="Fill" Margin="100 0 0 0"/>
             </StackPanel>
         </StackPanel>
 

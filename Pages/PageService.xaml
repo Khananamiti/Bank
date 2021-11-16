@@ -1,0 +1,46 @@
+﻿<Page x:Class="WpfApp8.Pages.PageService"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:WpfApp8.Pages"
+      mc:Ignorable="d" 
+     d:DesignHeight="800" d:DesignWidth="1500"
+      Title="PageService">
+
+    <Grid Background="AntiqueWhite">
+        <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Top">
+            <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0 50 0 0" Height="746">
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Top" Width="1069">
+                    <Button Content="Все онлайн-сервисы" Style="{StaticResource BtnStolb1}" FontWeight="Black">
+                    </Button>
+                    <Button Content="Мобильное приложение СберБанк Онлайн" Style="{StaticResource BtnStolb1}" FontWeight="Black" Width="269">
+                    </Button>
+                    <Button Content="Интернет-банк СберБанк Онлайн" Style="{StaticResource BtnStolb1}" FontWeight="Black" Width="230">
+                    </Button>
+                    <Button Content="Уведомления об операциях" Style="{StaticResource BtnStolb1}" FontWeight="Black">
+                    </Button>
+                    <Button Content="Сбер ID" Style="{StaticResource BtnStolb1}" FontWeight="Black">
+                    </Button>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="50 0 0 10" Width="1364">
+                    <Button Content="Полезное" Style="{StaticResource BtnStolb2}" FontWeight="Light">
+                    </Button>
+                    <Button Content="Госуслуги" Style="{StaticResource BtnStolb2}" FontWeight="Light">
+                    </Button>
+                    <Button Content="СберЛогистика" Style="{StaticResource BtnStolb2}" FontWeight="Light">
+                    </Button>
+                    <Button Content="Как обновить приложение СберБанк Онлайн" Style="{StaticResource BtnStolb2}" FontWeight="Light">
+                    </Button>
+                    <Button Content="Как оплатить счет по QR-коду" Style="{StaticResource BtnStolb2}" FontWeight="Light">
+                    </Button>
+                    <Button Content="Калькулятор детских пособий" Style="{StaticResource BtnStolb2}" FontWeight="Light">
+                    </Button>
+                    <Button Content="Как получать пенсию в СберБанке" Style="{StaticResource BtnStolb2}" FontWeight="Light">
+                    </Button>
+                </StackPanel>
+                <Image Source="/WpfApp8;component/service.jpg" Height="602" Width="1108" Stretch="Fill" Margin="100 0 0 0"></Image>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Page>

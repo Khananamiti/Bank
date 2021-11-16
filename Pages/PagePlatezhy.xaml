@@ -1,0 +1,42 @@
+﻿<Page x:Class="WpfApp8.Pages.PagePlatezhy"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:WpfApp8.Pages"
+      mc:Ignorable="d" 
+     d:DesignHeight="800" d:DesignWidth="1500"
+      Title="PagePlatezhy">
+
+    <Grid Background="AntiqueWhite">
+        <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Top">
+            <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0 50 0 0">
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Top">
+                    <Button Content="Оплата услуг" Style="{StaticResource BtnStolb1}" FontWeight="Black">
+                    </Button>
+                    <Button Content="Автоплатеж" Style="{StaticResource BtnStolb1}" FontWeight="Black">
+                    </Button>
+                    <Button Content="Оплата по SberPay" Style="{StaticResource BtnStolb1}" FontWeight="Black">
+                    </Button>
+                    <Button Content="Аккредитивы и эскроу" Style="{StaticResource BtnStolb1}" FontWeight="Black">
+                    </Button>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="50 0 0 10">
+                    <Button Content="Полезное" Style="{StaticResource BtnStolb2}" FontWeight="Light">
+                    </Button>
+                    <Button Content="Вопросы о платежах" Style="{StaticResource BtnStolb2}" FontWeight="Light">
+                    </Button>
+                    <Button Content="Вопросы об оплате за ЖКХ" Style="{StaticResource BtnStolb2}" FontWeight="Light">
+                    </Button>
+                    <Button Content="Как оплатить покупку по QR-коду" Style="{StaticResource BtnStolb2}" FontWeight="Light">
+                    </Button>
+                    <Button Content="Оплата одним взглядом" Style="{StaticResource BtnStolb2}" FontWeight="Light">
+                    </Button>
+                    <Button Content="Оплата по QR через СБП" Style="{StaticResource BtnStolb2}" FontWeight="Light">
+                    </Button>
+                </StackPanel>
+                <Image Source="/WpfApp8;component/platezhy.jpg" Height="600" Width="988" Stretch="Fill" Margin="100 0 0 0"></Image>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Page>
